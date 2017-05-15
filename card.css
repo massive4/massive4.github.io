@@ -1,0 +1,51 @@
+body{
+  background-color: #000;
+  color: orange;
+  font-family: Leixo Demo;
+  font-weight: bold;
+  min-width: 640px;
+}
+.main{
+  border: 5px solid grey;
+  box-sizing: border-box;
+  margin: auto;
+  position: relative;
+  width: 50%;
+}
+.main h1{
+   padding-left: 5%;
+   padding-top: 100px;
+}
+.main h2{
+  padding-left: 5%;
+}
+.logo{
+  border: 5px solid grey;
+  border-radius: 50%;
+  height: 45px;
+  position: absolute;
+  right: 15px;
+  top:10px;
+  width: 45px;
+}
+.features{
+  border-left: 5px solid orange;
+  font-family: Trebuchet MS;
+  font-size: 125%;
+  font-weight: bold;
+  margin-left: 5%;
+  padding-left: 2.5%;
+}
+.social-block{
+  text-align: center;
+  margin-bottom: 5%;
+}
+.social-block a{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.social-block a:hover{
+  border-bottom: 5px solid orange;
+  margin-bottom: -2px;
+  padding-bottom: 5px;
+}
